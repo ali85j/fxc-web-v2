@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh '''
+                node -v
                 npm install
                 '''
             }
