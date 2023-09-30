@@ -1,8 +1,8 @@
 pipeline {
     agent any
-                # rm node_modules.tar.gz
-                # wget https://github.com/ali85j/fxc-web-v2/blob/master/node_modules.tar.gz
-                # tar -pzxf node_modules.tar.gz
+                //  rm node_modules.tar.gz
+                //  wget https://github.com/ali85j/fxc-web-v2/blob/master/node_modules.tar.gz
+                //  tar -pzxf node_modules.tar.gz
     stages {
         stage('Get Dependencies') {
             steps {
