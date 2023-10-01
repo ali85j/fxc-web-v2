@@ -8,9 +8,10 @@ pipeline {
                 sh '''
                 node -v
                 npm -v
-                 wget https://github.com/ali85j/fxc-web-v2/blob/master/node_modules.tar.gz
-                 ls -lstrh node_modules.tar.gz
-                 tar -pzxf node_modules.tar.gz
+                # rm node_modules.tar.gz.1
+                # wget https://github.com/ali85j/fxc-web-v2/blob/master/node_modules.tar.gz
+                #  ls -lstrh node_modules.tar.gz
+                #  tar -pzxf node_modules.tar.gz
 
                 '''
             }
